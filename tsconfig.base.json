@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@nuxt2-monorepo/my-lib": ["my-lib/src/index.ts"],
+      "@nuxt2-monorepo/my-shared-ui": ["my-shared-ui/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
